@@ -6,6 +6,11 @@ function Home() {
         <>
            <MainBanner/>
 
+           <div>
+            hola
+           </div>
+           
+
         </>
     );
 }
