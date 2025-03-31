@@ -1,13 +1,14 @@
 :root {
-  --color1: #030AA4;
+  --color1: #e5ff00;
   --color2: #07070C;
-  --color3: #E3A410;
-  --color4: #65FA05;
-  --color5: #00EBF0;
+  --color3: #ff0000;
+  --color4: #00f7ff;
+  --color5: #2600ff;
   --color-blanco: #FFFFFF;
   --color-negro: #000000;
   --color-gris-claro: #CCCCCC;
   --color-gris-oscuro: #333333;
+  --color-rosadita: #d400ff;
 }
 
 body {
@@ -36,6 +37,15 @@ h3 {
 #page-header {
   background-color: var(--color-gris-claro);
   padding: 15px 0;
+}
+/*titulo y fondo*/
+#main-header{
+  background-color: var(--color4);
+  color: var(--color-rosadita);
+}
+
+#main-header p{
+  margin-bottom: 0;
 }
 
 .padded {

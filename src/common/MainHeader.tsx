@@ -1,3 +1,4 @@
+//aca se comenta con los /
 function MainHeader() {
     return (
         <header id="main-header">
