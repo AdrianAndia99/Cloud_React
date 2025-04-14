@@ -8,8 +8,14 @@ function Game3() {
         codeUrl: "/MemoryCards.wasm",
     });
 
-    function handleClickSpawnEnemies() {
-      sendMessage("SceneManager", "Restart");
+    let name: string = "Adrian Andia";
+    function resetScene() 
+    {
+      sendMessage("SceneManager", "Restart"); 
+    }
+  function sendName() 
+  {
+    sendMessage("SceneManager", "ChangeText", name);
   }
 
     return (
@@ -19,7 +25,8 @@ function Game3() {
                     <h1 className="centered-title">React + Unity / Tecsup</h1>
                     <Unity unityProvider={unityProvider} className="centered-unity" />
                     <div className="centered-content">
-                        <button onClick={handleClickSpawnEnemies}>Restart Game</button>
+                        <button onClick={resetScene}>Restart Game</button>
+                        <button onClick={sendName}>Name Click</button>
                     </div>
                 </div>
             </div>
