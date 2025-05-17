@@ -1,35 +1,23 @@
 import {Unity, useUnityContext} from "react-unity-webgl";
 
-function Game() {
-    const { unityProvider, sendMessage } = useUnityContext({
-        loaderUrl: "/UnityReact.loader.js",
-        dataUrl: "/UnityReact.data.unityweb",
-        frameworkUrl: "/UnityReact.framework.js.unityweb",
-        codeUrl: "/UnityReact.wasm.unityweb",
-    });
+function Game1() {
+  const { unityProvider } = useUnityContext({
+    loaderUrl: "/moneda.loader.js",
+    dataUrl: "/moneda.data",
+    frameworkUrl: "/moneda.framework.js",
+    codeUrl: "/moneda.wasm",
+});
 
-    function handleClickSpawnEnemies() {
-        sendMessage("GameObject", "SpawnEnemies");
-    }
-
-
-    return (
-        <>
-            <div className="centered-container">
-                <div className="centered-content">
-                    <h1 className="centered-title">React + Unity / Tecsup</h1>
-                    <Unity unityProvider={unityProvider} className="centered-unity" />
-
-                    <div className="centered-content">
-                        <button onClick={handleClickSpawnEnemies}>Spawn Enemies</button>
-                    </div>
-
-                </div>
+return (
+    <>
+        <div className="centered-container">
+            <div className="centered-content">
+                <h1 className="centered-title">Game 2</h1>
+                <Unity unityProvider={unityProvider} className="centered-unity" />
             </div>
+        </div>
 
-        </>
-    );
-}
-
-
-export default Game
+    </>
+);
+  }
+  export default Game1;
