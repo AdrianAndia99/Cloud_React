@@ -15,27 +15,27 @@ function MainNav() {
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game">Game</Link>
+                            <Link className="nav-link" to="/game">3D GAME</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game2">Game 2</Link>
+                            <Link className="nav-link" to="/game2">Color Cube</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game3">Game 3</Link>
+                            <Link className="nav-link" to="/game3">Memory Cards</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game4">Game 4</Link>
+                            <Link className="nav-link" to="/game4">Platform</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game5">Game 5</Link>
+                            <Link className="nav-link" to="/game5">SpaceShip</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/game6">Game 6</Link>
+                            <Link className="nav-link" to="/game6">Construct</Link>
                         </li>
                     </ul>
                 </div>
