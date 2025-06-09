@@ -1,7 +1,7 @@
 <?php
 function conectar() {
     $host = 'localhost';
-    $dbname = 'cloud';
+    $dbname = 'cloud_final';
     $username = 'root';
     $password = '';
 

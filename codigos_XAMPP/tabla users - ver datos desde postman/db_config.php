@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'final_project_db';
+$dbname = 'cloud_final';
 $user = 'root';
 $pass = '';
 
