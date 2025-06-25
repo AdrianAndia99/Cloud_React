@@ -37,6 +37,9 @@ function MainNav() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/game6">Construct</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/ranking">Ranking</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
