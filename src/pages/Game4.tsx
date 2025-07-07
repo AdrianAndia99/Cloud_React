@@ -34,7 +34,7 @@ function Game4() {
   return (
     <div className="centered-container">
       <div className="centered-content">
-        <h1 className="centered-title">Platform</h1>
+        <h1 className="centered-title">Game 4</h1>
         <Unity unityProvider={unityProvider} className="centered-unity" tabIndex={1} />
 
         <div className="input-container" style={{ marginTop: "10px" }}>
